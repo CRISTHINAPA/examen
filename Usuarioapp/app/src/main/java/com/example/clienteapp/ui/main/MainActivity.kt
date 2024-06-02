@@ -48,9 +48,9 @@ class MainActivity : AppCompatActivity() {
     private fun insertInitialData() {
         try {
             val usuarios = listOf(
-                Usuario(id = 1, nombre = "Pedrito de los Palotes", telefono = "098557841", imagenUri = ""),
-                Usuario(id = 2, nombre = "Fresco Solo Jugoso", telefono = "0967216895", imagenUri = ""),
-                Usuario(id = 3, nombre = "Don Buenas Noches", telefono = "0985623164", imagenUri = "")
+                Usuario(id = 1, nombre = "Cristhina Parrales", telefono = "0933333333", imagenUri = ""),
+                Usuario(id = 2, nombre = "Yanfricito el mejor", telefono = "0933333333", imagenUri = ""),
+                Usuario(id = 3, nombre = "Michelada", telefono = "0933333333", imagenUri = "")
             )
             usuarioViewModel.insertAll(*usuarios.toTypedArray())
             Log.d("MainActivity", "Datos iniciales insertados correctamente")
