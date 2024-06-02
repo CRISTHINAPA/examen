@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">UsuarioApp</string>
+    <string name="main_activity_title">Usuarios</string>
+    <string name="movimientos_activity_title">Movimientos</string>
+    <string name="nombre">Nombre</string>
+    <string name="telefono">Teléfono</string>
+    <string name="descripcion">Descripción</string>
+    <string name="monto">Monto</string>
+</resources>
